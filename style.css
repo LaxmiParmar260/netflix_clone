@@ -1,0 +1,382 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap");
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: "Open Sans", sans-serif;
+}
+.container {
+  height: 100vh;
+  width: 100%;
+  background-color: #000000;
+}
+.container .box {
+  height: 100vh;
+  width: 100%;
+  background: linear-gradient(
+      to top,
+      rgba(0, 0, 0, 0.8) 0,
+      rgba(0, 0, 0, 0) 60%,
+      rgba(0, 0, 0, 0.8) 100%
+    ),
+    url("./images/IN-en-20240708-POP_SIGNUP_TWO_WEEKS-perspective_WEB_34324b52-d094-482b-8c2a-708dc64c9065_small.jpg");
+  background-repeat: no-repeat;
+  background-position: cover;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  border-bottom: 10px solid rgb(52, 51, 51);
+}
+.container .box .head {
+  height: 10%;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding-inline: 60px;
+}
+.box .head img {
+  height: 30px;
+  width: 20%;
+}
+.box .head span {
+  height: 30%;
+  width: 100%;
+  display: flex;
+  justify-content: flex-end;
+  text-align: center;
+}
+.box .head span .one {
+  height: 40px;
+  width: 10%;
+  background: rgba(0, 0, 0, 0.5);
+  color: white;
+  border-radius: 10px;
+  border: 2px solid white;
+  margin-right: 5px;
+}
+.box .head span .two {
+  height: 40px;
+  width: 10%;
+  border-radius: none;
+  background-color: red;
+  color: white;
+  border-radius: 10px;
+}
+.box .box-mid {
+  height: 70%;
+  width: 100%;
+  color: white;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.box .box-mid h1 {
+  font-size: 45px;
+  font-weight: 700;
+  font-style: normal;
+  padding: 5px;
+}
+.box .box-mid h3 {
+  font-size: 25px;
+  font-family: "Open Sans", sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  padding: 5px;
+}
+.box .box-mid h4 {
+  font-size: 20px;
+  font-family: "Open Sans", sans-serif;
+  font-optical-sizing: auto;
+  font-style: normal;
+  font-weight: 500;
+  padding: 5px;
+}
+.box .box-mid span {
+  height: 12%;
+  width: 30%;
+  display: flex;
+  justify-content: space-around;
+  padding: 5px;
+}
+.box .box-mid span input {
+  height: auto;
+  width: 70%;
+  color: white;
+  background: rgba(0, 0, 0, 0.5);
+}
+.box .box-mid span button {
+  height: auto;
+  width: 40%;
+  background-color: red;
+  color: white;
+  font-weight: bold;
+}
+.tv-part {
+  height: 80vh;
+  width: 100%;
+  background-color: black;
+  border-bottom: 10px solid rgb(52, 51, 51);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.tv-part .left {
+  width: 40%;
+  height: auto;
+  color: white;
+  font-size: 20px;
+  font-weight: normal;
+  font-style: normal;
+  font-family: "Open Sans", sans-serif;
+  font-optical-sizing: auto;
+}
+.tv-part .right {
+  width: 40%;
+}
+.left img {
+  height: 60%;
+}
+.right video {
+  height: 60%;
+}
+.tv-part .left h1 {
+  font-family: "Roboto", sans-serif;
+  font-weight: 700;
+  font-style: normal;
+  font-size: 50px;
+  padding-bottom: 10px;
+}
+.tv-part .left p {
+  font-size: 20px;
+}
+.tv-part .left2 img {
+  height: 90%;
+  width: 100%;
+}
+.tv-part .right2 {
+  height: 40%;
+  width: 40%;
+  background-color: black;
+  color: white;
+  font-size: 20px;
+  font-weight: normal;
+  font-style: normal;
+  font-family: "Open Sans", sans-serif;
+  font-optical-sizing: auto;
+}
+.faq-sec {
+  width: 100%;
+  height: auto;
+  background-color: black;
+  padding-block: 40px;
+  border-bottom: 10px solid gray;
+}
+.faq-sec .h1 h1 {
+  font-family: "Open Sans", sans-serif;
+  font-size: 2.5em;
+  color: white;
+  text-align: center;
+  padding-bottom: 30px;
+}
+.faq-part {
+  width: 100%;
+  height: auto;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  padding-block: 40px;
+}
+.faq-box {
+  width: 80%;
+  height: 70px;
+  background-color: rgb(61, 60, 60);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 20px;
+}
+.faq-box span {
+  width: 100%;
+  height: auto;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  color: white;
+  padding-inline: 30px;
+  font-size: 30px;
+}
+.faq-box span h1 {
+  font-size: 22px;
+  font-style: normal;
+}
+.faq-box span i {
+  font-size: 60px;
+}
+.footer-section {
+  width: 100%;
+  height: 60vh;
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  padding: 50px;
+  background-color: black;
+}
+.footer-section ul li a {
+  color: white;
+  line-height: 40px;
+}
+.faq-box:hover {
+  background-color: gray;
+}
+
+/* responsive part */
+@media (max-width: 768px) {
+  .container {
+    height: 100vh;
+    width: 100%;
+  }
+  .container .box {
+    height: 100vh;
+    width: 100%;
+  }
+  .box .head span {
+    height: 50%;
+    width: 100%;
+  }
+  .box .head span .one {
+    height: auto;
+    width: 30%;
+  }
+  .box .head span .two {
+    height: auto;
+    width: 20%;
+  }
+  .box .box-mid h1 {
+    height: auto;
+    font-size: 30px;
+    width: 100%;
+    padding-left: 90px;
+  }
+  .box .box-mid span {
+    height: 10%;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+  }
+  .box .box-mid span input {
+    height: auto;
+    width: 40%;
+  }
+  .box .box-mid span button {
+    height: auto;
+    width: 30%;
+  }
+  .tv-part .main {
+    width: 100%;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  .tv-part .main .left {
+    height: auto;
+    width: 90%;
+    padding: 40px;
+  }
+  .tv-part .main .right {
+    height: auto;
+    width: 80%;
+  }
+  .tv-part .main .left2 img {
+    height: 100%;
+    width: 100%;
+  }
+  .tv-part .main .right2 {
+    height: 100%;
+    width: 100%;
+  }
+  .tv-part .main:nth-child(2) {
+    flex-direction: column-reverse;
+  }
+  .tv-part .right {
+    height: 60%;
+    width: 70%;
+  }
+  .tv-part .left {
+    height: 40%;
+    width: 70%;
+  }
+}
+
+@media (max-width: 480px) {
+  .container {
+    height: 100vh;
+    width: 100%;
+  }
+  .container .box {
+    height: 100vh;
+    width: 100%;
+  }
+  .container .head {
+    height: auto;
+    width: 100%;
+    display: flex;
+  }
+
+  .container .head span {
+    height: 60%;
+    width: 100%;
+  }
+  .container .head span .one {
+    height: auto;
+    width: 25%;
+  }
+  .container .head span .two {
+    height: auto;
+    width: 30%;
+  }
+
+  .box .box-mid {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  .box .box-mid h1 {
+    font-size: 30px;
+    text-align: center;
+    margin-right: 40px;
+  }
+  .box .box-mid h3 {
+    font-size: 20px;
+    text-align: center;
+  }
+  .box .box-mid h4 {
+    font-size: 20px;
+    font-weight: 400;
+    text-align: center;
+    padding-left: 20px;
+  }
+  .box .box-mid span {
+    height: 15%;
+    width: 100%;
+    display: flex;
+    justify-content: space-evenly;
+  }
+  .box .box-mid span input {
+    height: auto;
+    width: 60%;
+  }
+  .box .box-mid span button {
+    height: auto;
+    width: 30%;
+  }
+}
